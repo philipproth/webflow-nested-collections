@@ -16,12 +16,12 @@ For more details have a look at the [sample project] (https://multiple-nested-co
 **Second step:** Insert the following code snippet with HTLM embed into the collection list on your static page (e.g. your blog post overview) or into a collection list on another CMS collection page (e.g. the category or tag CMS template page). Place the HTML embed at the place where the nested collection list should appear.
 
 ```
-<div class="authors-list" id="unify-[slug]"></div>
+<div class="collection-list" id="unify-[webflow-dyn-slug]"></div>
 ‍
 <script>
 window.addEventListener('DOMContentLoaded', function() {
    jQuery(function() {
-       jQuery('#unify-[slug]').load("/post/[slug] .authors-list")
+       jQuery('#unify-[webflow-dyn-slug]').load("/post/[webflow-dyn-slug] .collection-list")
    });
 });
 </script>
