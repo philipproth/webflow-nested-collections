@@ -29,4 +29,8 @@ window.addEventListener('DOMContentLoaded', function() {
 
 **Third step:** Adjust the unify-[slug] part and the url-part in the code snippet (marked in purple and red). Replace [slug] with the dynamic slug element by using the "+ Add Field" in the upper right corner of the HTML Embed Code Editor. Replace unify- with an individual piece of text to get an individual ID for each nested collection list. This step is important if you use multiple nested collections within the parent collection (e.g. authors, tags and categories). Adjust the URL in the code snippet to point to the CMS template page that contains the collection you want to embed as a nested collection. Therefore, use the dynamic slug element (+ Add Field" in the upper right corner of the HTML Embed Code Editor). Finally you have to adjust the class (marked in blue). Use the class you gave to the collection list you want to nest (see first step above). In this example this is the class .authors-list.
 
+## Demo and clonable project
+
+Clone the sample project and inspect the blog overview page to gain a better understanding for nesting collection lists and collection items with jQuery .load() in Webflow.
+
 [Demo site and clonable Webflow project] (https://multiple-nested-collections.webflow.io/)
