@@ -31,6 +31,6 @@ window.addEventListener('DOMContentLoaded', function() {
 
 ## Demo and clonable project
 
-Clone the sample project and inspect the blog overview page to gain a better understanding for nesting collection lists and collection items with jQuery .load() in Webflow.
+Clone the demo project and inspect the blog overview page to gain a better understanding for nesting collection lists and collection items with jQuery .load() in Webflow.
 
 [Demo site and clonable Webflow project] (https://multiple-nested-collections.webflow.io/)
