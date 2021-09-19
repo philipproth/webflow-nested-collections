@@ -1,6 +1,6 @@
-# Webflow nested collections without the default limitation of max 1 collection list per static page with max 5 collection items.
+# Webflow nested collections without limitations.
 
-Add multiple nested collections without limitation of collectioniItems on a single page in a Webflow project.
+Add multiple nested collections in a Webflow project without the default limitation of max 1 collection list per static page with max 5 collection items on any static single page.
 
 ## Intro
 An easy and lightweight way to nest multiple collections with unlimited items on any single page with jQuery .load() which pulls the multi-reference info from any individual page into an HTML embed, that works like a nested collection. 
