@@ -1,9 +1,0 @@
-<div class="collection-list" id="unify-[webflow-dyn-slug]"></div>
-‍
-<script>
-window.addEventListener('DOMContentLoaded', function() {
-   jQuery(function() {
-       jQuery('#unify-[webflow-dyn-slug]').load("/post/[webflow-dyn-slug] .collection-list")
-   });
-});
-</script>
